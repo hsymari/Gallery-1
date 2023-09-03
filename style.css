@@ -31,7 +31,7 @@ header {
 }
 
 .search-bar input {
-    width: 180px;
+    width: 360px;
     height: 32px;
     background-color: transparent;
     border-radius: 5px;
@@ -49,12 +49,46 @@ header {
     border-radius: 5px;
     color: #5CDB95;
     background-color: #05386B;
+    font-size: 14px;
 }
 
+.search:hover {
+    background-color: #379683;
+    cursor: pointer;
+    color: #EDF5E1;
+}
 
 nav {
     display: flex;
     justify-content: flex-end;
     margin: 20px;
     flex: 1;
+}
+
+nav > .login {
+    color:#379683;
+    text-decoration: none;
+    padding: 5px;
+    margin-right: 25px;
+}
+
+nav .login:hover {
+    color:#05386B;
+    font-size: 18px;
+}
+
+nav .submit-photo {
+    width: 180px;
+    height: 32px;
+    background-color: transparent;
+    border: 2px solid #379683;
+    font-size: 14px;
+    color: #379683;
+    border-radius: 5px;
+}
+
+.submit-photo:hover {
+    border-color: #05386B;
+    color: #05386B;
+    cursor: pointer;
 }
