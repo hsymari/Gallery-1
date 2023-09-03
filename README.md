@@ -1,2 +1,3 @@
 # Gallery-1
-Tugas
+Tugas 1 Beginner level
+Gallery photo kucing
