@@ -97,6 +97,7 @@ nav .submit-photo {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .thumbnail {
@@ -110,5 +111,17 @@ nav .submit-photo {
 
 main h1 {
     margin: 20px auto;
+    text-align: center;
+}
+
+.title {
+    width: 250px;
+    background-color: #379683;
+    margin: -31px;
+    position: relative;
+    left: 31px;
+}
+
+.title h4 {
     text-align: center;
 }
