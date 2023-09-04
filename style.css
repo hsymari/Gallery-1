@@ -92,3 +92,23 @@ nav .submit-photo {
     color: #05386B;
     cursor: pointer;
 }
+
+.gallery-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.thumbnail img {
+    width: 250px;
+}
+
+main h1 {
+    margin: 20px auto;
+    text-align: center;
+}
